@@ -1,0 +1,37 @@
+.card {
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #fdfdfd;
+  width: 450px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .card .details {
+    display: flex;
+    flex-direction: column; }
+    .card .details .name p {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      margin: 0;
+      padding-bottom: 7px; }
+    .card .details .social {
+      border-top: 1px solid #adadad;
+      padding-top: 7px;
+      display: flex; }
+      .card .details .social .network {
+        margin-right: 10px; }
+        .card .details .social .network a img {
+          width: 30px;
+          transition: all ease-in-out 0.3s; }
+          .card .details .social .network a img:hover {
+            opacity: 0.5; }
+  .card .photo {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .card .photo img {
+      width: 150px;
+      border-radius: 50%;
+      border: 3px solid #e2e2e2; }

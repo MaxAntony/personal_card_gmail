@@ -1,0 +1,14 @@
+{
+  "name": "personal-card",
+  "version": "1.0.0",
+  "description": "tarjeta personal para firma en gmail",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/scss/style.scss -o src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
